@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
                         }
                         tvValue.contains("+") -> {
                             // 100+2
-                            val splitStrings: List<String> = tvValue.split("-") // 100  2
+                            val splitStrings: List<String> = tvValue.split("+") // 100  2
                             var num1 = splitStrings[0] //100
                             val num2 = splitStrings[1] //2
                             if(begin.isNotEmpty()){
